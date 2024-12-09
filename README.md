@@ -32,11 +32,11 @@ Install dependencies:
 Start the development server:
 ``` npm start```
 # or
-yarn start
+``` yarn start ```
 Open the app in your browser at http://localhost:3000.
 Folder Structure
 
-src/
+``` src/
 │
 ├── components/         # Reusable UI components
 ├── pages/              # Main page components
@@ -46,16 +46,17 @@ src/
 ├── utils/              # Utility functions
 ├── services/           # API calls and integrations
 └── App.js              # Main app component
-Future Enhancements
+```
+# Future Enhancements
 
 Integration with a backend service for live AI recommendations.
 Personalization features for saved tools and user preferences.
 Support for multiple languages.
 Dark mode toggle (default is dark).
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributions
+# Contributions
 
 We welcome contributions! Please submit a pull request or open an issue if you have ideas or find bugs.
