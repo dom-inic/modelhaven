@@ -1,20 +1,21 @@
 ### ModelHaven Frontend
 
-ModelHaven is a dynamic web platform that empowers users to discover and utilize AI models and tools tailored to their creative and technical needs. This is the frontend repository built with React to deliver an intuitive, futuristic, and responsive user experience.
+ModelHaven is a dynamic AI powered web platform that empowers users to discover and utilize AI models and tools tailored to their creative and technical needs. 
+This is the frontend repository built with React to deliver an intuitive, futuristic, and responsive user experience.
 
 ## Features
 
 Interactive Chat Interface: A modern chat system allowing users to describe their projects and receive curated AI tools.
-Search and Discovery: Easily find AI models and tools categorized by their purpose (e.g., animation, coding, video generation).
+Search and Discovery: Easily find AI models and tools categorized by their purpose (e.g., animation, coding, video generation, Image generation).
 Clickable Cards: Visually appealing model/tool cards with detailed information and external links.
 Multicolor Theme: A futuristic color palette inspired by cyberpunk design principles.
-Navigation Bar: Organized tabs for effortless browsing and quick access to categories, saved tools, settings, and more.
+Navigation Bar: Organized tabs for effortless browsing and quick access to models, favorite models, settings, and more.
 Tech Stack
 
 ## Frontend Framework: React
 Styling: CSS Modules and custom themes with cyberpunk-inspired designs.
 State Management: Redux Toolkit for managing user interactions and data flow.
-API Integration: Built to connect with a backend for model recommendations (e.g., via REST or GraphQL).
+API Integration: Built to connect with a backend for model recommendations 
 Testing: Jest and React Testing Library for unit and integration tests.
 Getting Started
 
@@ -40,18 +41,13 @@ Folder Structure
 │
 ├── components/         # Reusable UI components
 ├── pages/              # Main page components
-├── assets/             # Static assets (images, icons, etc.)
-├── styles/             # CSS modules for styling
-├── store/              # Redux store and slices
-├── utils/              # Utility functions
-├── services/           # API calls and integrations
-└── App.js              # Main app component
+├── contexts/           # Contexts     
+└── App.tsx             # Main app component
 ```
 # Future Enhancements
 
 Integration with a backend service for live AI recommendations.
 Personalization features for saved tools and user preferences.
-Support for multiple languages.
 Dark mode toggle (default is dark).
 # License
 
