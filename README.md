@@ -23,7 +23,7 @@ Getting Started
 ```npm or yarn package manager```
 # Installation
 Clone the repository:
-``` git clone https://github.com/yourusername/modelhaven-frontend.git ```
+``` git clone https://github.com/dom-inic/modelhaven.git ```
 cd modelhaven-frontend
 Install dependencies:
 ``` npm install ```
