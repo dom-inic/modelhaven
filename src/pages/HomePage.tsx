@@ -102,6 +102,9 @@ export  function HomePage() {
           <a href="#" className="hover:text-violet-100">Terms</a>
           <a href="#" className="hover:text-violet-100">Privacy</a>
         </div>
+        <div className="flex justify-center space-x-4 mb-4">
+          <a href="https://www.paypal.com/donate?hosted_button_id=5ZBSSMTW49PB2" target="_blank" rel="noopener noreferrer" className="hover:text-violet-100">Donate</a>
+        </div>
         <div className="text-violet-400">
           &copy; {new Date().getFullYear()} ModelHaven
         </div>
