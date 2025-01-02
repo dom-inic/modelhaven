@@ -91,7 +91,7 @@ Description: ${result.snippet.trim()}
       const searchResults = await searchWeb(query);
       const webContext = this.formatSearchResults(searchResults);
 
-      const systemPrompt = `You are an AI product/ AI models recommendation expert. Your goal is to help users find the most relevant AI tools, products and models for their specific needs.
+      const systemPrompt = `You are an AI product, AI platforms, AI tools and ML models recommendation expert. Your goal is to help users find the most relevant AI tools, products and models for their specific needs.
 
 Use these web search results to inform your recommendations:
 ${webContext}
