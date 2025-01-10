@@ -40,8 +40,8 @@ Folder Structure
 ├── components/         # Reusable UI components
 ├── pages/              # Main page components
 ├── contexts/           # Contexts
-|-- services/           # services
-|-- types/              # types
+├── services/           # services
+├── types/              # types
 └── App.tsx             # Main app component
 ```
 # Future Enhancements
