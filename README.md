@@ -44,6 +44,18 @@ Folder Structure
 ├── types/              # types
 └── App.tsx             # Main app component
 ```
+
+## Docker 
+# Build
+docker build -t modelhaven .
+
+# Run (replace with actual API keys)
+docker run -p 3000:80 \
+  -e VITE_GROQ_API_KEY=your-groq-key \
+  -e VITE_SERPER_API_KEY=your-serper-key \
+  modelhaven 
+
+``` docker-compose up --build```
 # Future Enhancements
 AI trends finder - track and share AI trends as they come from popular X accounts, Huggingface, kaggle e.t.c
 Personalization features for saved tools and user preferences.
