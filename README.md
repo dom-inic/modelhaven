@@ -5,7 +5,7 @@ This is the frontend repository built with React to deliver an intuitive, futuri
 
 ## Features
 
-Interactive Chat Interface: A modern chat system allowing users to describe their projects and receive curated AI tools.
+Interactive Chat Interface: A modern chat system allowing users to describe their projects and receive curated AI tools and ML models
 Search and Discovery: Easily find AI models and tools categorized by their purpose (e.g., animation, coding, video generation, Image generation).
 Clickable Cards: Visually appealing model/tool cards with detailed information and external links.
 Multicolor Theme: A futuristic color palette inspired by cyberpunk design principles.
@@ -14,9 +14,7 @@ Tech Stack
 
 ## Frontend Framework: React
 Styling: CSS Modules and custom themes with cyberpunk-inspired designs.
-State Management: Redux Toolkit for managing user interactions and data flow.
-API Integration: Built to connect with a backend for model recommendations 
-Testing: Jest and React Testing Library for unit and integration tests.
+API Integration: Utilizing groq api with llama-3.3-70b-versatile as the LLM for recommendations, Serper API as the search tool being used by the LLM. 
 Getting Started
 
 ## Prerequisites
@@ -31,9 +29,9 @@ Install dependencies:
 # or
 ``` yarn install```
 Start the development server:
-``` npm start```
+``` npm run dev```
 # or
-``` yarn start ```
+``` yarn run dev  ```
 Open the app in your browser at http://localhost:3000.
 Folder Structure
 
@@ -41,14 +39,14 @@ Folder Structure
 │
 ├── components/         # Reusable UI components
 ├── pages/              # Main page components
-├── contexts/           # Contexts     
+├── contexts/           # Contexts
+|-- services/           # services
+|-- types/              # types
 └── App.tsx             # Main app component
 ```
 # Future Enhancements
-
-Integration with a backend service for live AI recommendations.
+AI trends finder - track and share AI trends as they come from popular X accounts, Huggingface, kaggle e.t.c
 Personalization features for saved tools and user preferences.
-Dark mode toggle (default is dark).
 # License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
