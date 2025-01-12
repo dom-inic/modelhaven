@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mendable/firecrawl-js": "^1.12.0",
     "groq-sdk": "^0.9.1",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",

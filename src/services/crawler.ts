@@ -1,5 +1,5 @@
 import { Groq } from "groq-sdk";
-
+import FirecrawlApp from '@mendable/firecrawl-js';
 
 interface SearchResponse {
     recommendations: Array<{
@@ -14,6 +14,7 @@ interface SearchResponse {
 
 export class TwitterCrawler {
     private groq: Groq;
+    private firecrawl: FirecrawlApp;
     private apiKey: string;
 
     constructor(apiKey: string) {
@@ -22,6 +23,7 @@ export class TwitterCrawler {
             apiKey,
             dangerouslyAllowBrowser: true
         });
+        this.firecrawl = new FirecrawlApp({apiKey: import.meta.env.VITE_FIRECRAWL_API_KEY});
     }
 
     private async fetchTweets(query: string): Promise<any[]> {
