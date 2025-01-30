@@ -133,7 +133,7 @@ Format your response as JSON with this structure:
             content: query
           }
         ],
-        model:  "llama-3.3-70b-versatile",
+        model:  "deepseek-r1-distill-llama-70b",
         temperature: 0.5,
         max_tokens: 1024,
         response_format: { type: "json_object" }
