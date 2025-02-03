@@ -19,9 +19,7 @@ export class ModelHavenSearch {
   }
 
   private cleanJsonResponse(response: string): string {
-    // Remove markdown code blocks if present
     let cleaned = response.replace(/```json\s?/g, '').replace(/```\s?/g, '');
-    // Remove any leading/trailing whitespace
     cleaned = cleaned.trim();
     return cleaned;
   }
