@@ -95,7 +95,7 @@ export  function HomePage() {
      <footer className="mt-12 py-6 border-t border-violet-800 text-center text-violet-300">
         <div className="flex justify-center space-x-4 mb-4">
           <a href="https://x.com/coderfpv" target="_blank" rel="noopener noreferrer" className="hover:text-violet-100">X</a>
-          <a href="https://github.com/dom-inic" target="_blank" rel="noopener noreferrer" className="hover:text-violet-100">GitHub</a>
+          <a href="https://github.com/dom-inic/modelhaven" target="_blank" rel="noopener noreferrer" className="hover:text-violet-100">GitHub</a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-violet-100">Discord</a>
         </div>
         <div className="flex justify-center space-x-4 mb-4">
